@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>В•Д•П•Й</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/foundation.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="particles" id="particles-js"></div>
+      <header class="header">
+        <h1 class="header__title glitch" data-text="В•Д•П•Й">В&#8226;Д&#8226;П&#8226;Й</h1>
+      </header>
+      <form class="form" action="#">
+        <canvas class="form__noise" id="canvas"></canvas>
+        <div class="form__body">
+          <div class="input form__input">
+            <input type="text" placeholder="Ваше имя и фамилия" required>
+          </div>
+          <div class="input form__input">
+            <input type="email" placeholder="Ваш e-mail" required>
+          </div>
+          <div class="input form__input">
+            <input type="text" placeholder="Ваш Instagram / VK" required>
+          </div>
+          <label class="form__label" for="age">Вам больше 18?
+            <input type="checkbox" id="age" required><span class="checkmark"></span>
+          </label>
+          <button class="form__button" type="submit"><span>Зарегистрироваться</span></button>
+        </div>
+        <div class="form__preloader"></div>
+        <div class="form__success">
+          <p>Вы зарегистрированы!</p>
+          <p>Мы выслали Вам подтверждение, обязательно проверьте Вашу почту!</p>
+          <p>Если письмо не пришло, проверьте в папке «спам».</p>
+          <p>Возникли вопросы? Пишите <a href="https://vk.com/h1ghspire" target="_blank">мне<a>    </p>
+        </div>
+      </form>
+    </div>
+    <script src="assets/js/plugins.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>
